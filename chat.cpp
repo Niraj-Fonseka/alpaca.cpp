@@ -1016,6 +1016,7 @@ int main(int argc, char ** argv) {
         if (!input_noecho) {
             for (auto id : embd) {
                 printf("%s", vocab.id_to_token[id].c_str());
+                //this is where the api call or the websocket call can go in
             }
             fflush(stdout);
         }
